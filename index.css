@@ -1,33 +1,43 @@
+/* Organization */
 body {
     background-color: #9ebddb;
     font-family: Arial;
     margin: 0;
     text-align: center;
 }
-div {
+
+/* Main */
+div.main {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-h1, span, button {
+h1, span, button, input {
     margin: 0;
 }
-h1 {
+div.main h1 {
     font-size: 48px;
     word-spacing: 20px;
 }
-span {
+div.main span {
     color: #e608b6;
 }
-button {
+div.main button {
     font-size: 24px;
     border: solid 2px;
     background-color: transparent;
     border-radius: 10px;
 }
-button:hover {
+div.main button:hover {
     background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Feedback */
+p {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
 }
