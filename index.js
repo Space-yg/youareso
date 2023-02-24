@@ -1,5 +1,3 @@
-function test() { console.log("Test"); }
-
 const words = [
     "accommodating",
     "adept",

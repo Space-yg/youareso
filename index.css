@@ -1,21 +1,31 @@
-/* Organization */
+/** Organization **/
 body {
     background-color: #9ebddb;
     font-family: Arial;
     margin: 0;
     text-align: center;
 }
+h1, span, button, input {
+    margin: 0;
+}
 
-/* Main */
+/** cool-color **/
+div.cool-color {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(to right, purple , blue);
+}
+
+/** main **/
 div.main {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-h1, span, button, input {
-    margin: 0;
 }
 div.main h1 {
     font-size: 48px;
@@ -34,10 +44,18 @@ div.main button:hover {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-/* Feedback */
-p {
+/** Footer **/
+footer {
     position: absolute;
     width: 100%;
-    bottom: 10px;
+    bottom: 2.5%;
     color: rgba(0, 0, 0, 0.5);
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
 }
