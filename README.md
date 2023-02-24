@@ -1,4 +1,4 @@
 # youareso
-You are everything🥺
+You are so amaamazing🥺
 
 Website: https://space-yg.github.io/youareso/
